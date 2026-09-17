@@ -1,0 +1,23 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter / Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Hugging Face & PyTorch Artifacts
+checkpoint-*/
+runs/
+models/
+*.pt
+*.bin
+*.onnx
+*.safetensors
+wandb/
+
+# Virtual Envs
+venv/
+.venv/
+env/
